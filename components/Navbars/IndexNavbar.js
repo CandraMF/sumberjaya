@@ -16,7 +16,10 @@ export default function Navbar(props) {
                 className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                 href="#pablo"
               >
-                Sinar Jaya Export
+                <span className="flex items-center">
+                  <img src="/img/brand/logo.svg" className="h-10"></img>
+                  <span> &nbsp; &nbsp;  Sumber Jaya Export</span>
+                </span>
               </a>
             </Link>
             <button

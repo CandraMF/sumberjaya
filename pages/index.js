@@ -5,6 +5,10 @@ import Link from "next/link";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+// import Slider from "react-slick";
+
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+
 export default function Index() {
   const images = [
     "https://images.unsplash.com/photo-1516655855035-d5215bcb5604?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
@@ -16,6 +20,31 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
+      <section >
+        <Splide 
+          className="h-screen overflow-hidden"
+          options={ {
+            rewind: true,
+            autoWidth: true,
+            autoplay: true,
+            hasAutoplayProgress: true,
+            hasAutoplayControls: true
+          } }
+>
+          <SplideSlide className="w-full">
+            <img src={images[0]} alt="Image 1" className="w-full object-cover"/>
+          </SplideSlide>
+          <SplideSlide className="w-full">
+            <img src={images[1]} alt="Image 2" className="w-full object-cover"/>
+          </SplideSlide>
+          <SplideSlide className="w-full">
+            <img src={images[2]} alt="Image 2" className="w-full object-cover"/>
+          </SplideSlide>
+          <SplideSlide className="w-full">
+            <img src={images[3]} alt="Image 2" className="w-full object-cover"/>
+          </SplideSlide>
+        </Splide>
+      </section>
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -57,12 +86,12 @@ export default function Index() {
           </div>
         </div>
         <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
+          className="absolute top-0 b-auto right-0 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
           src="/img/pattern_nextjs.png"
           alt="..."
         />
       </section>
-
+      
       <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -116,7 +145,6 @@ export default function Index() {
                 </blockquote>
               </div>
             </div>
-
             <div className="w-full md:w-6/12 px-4">
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
@@ -178,7 +206,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>  
           </div>
         </div>
 
