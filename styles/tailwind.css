@@ -1364,7 +1364,7 @@ select {
   background-color: rgba(148, 163, 184, var(--tw-bg-opacity));
 }
 
-.bg-blueGray-600 {
+.bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(71, 85, 105, var(--tw-bg-opacity));
 }
@@ -1404,7 +1404,7 @@ select {
   background-color: rgba(100, 116, 139, var(--tw-bg-opacity));
 }
 
-.active\:bg-blueGray-600:active {
+.active\:bg-orange-500:active {
   --tw-bg-opacity: 1;
   background-color: rgba(71, 85, 105, var(--tw-bg-opacity));
 }

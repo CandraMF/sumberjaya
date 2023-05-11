@@ -19,15 +19,14 @@ const IndexDropdown = () => {
   return (
     <>
       <a
-        className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-        href="#pablo"
+        className="bg-orange-500 text-white active:bg-orange-200 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
         ref={btnDropdownRef}
         onClick={(e) => {
           e.preventDefault();
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        Demo Pages
+        Our Products
       </a>
       <div
         ref={popoverDropdownRef}
@@ -41,104 +40,71 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Admin Layout
+          
         </span>
-        <Link href="/admin/dashboard">
+        <Link href="/our-product">
           <a
-            href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Dashboard
+            Wood Pellet
           </a>
         </Link>
-        <Link href="/admin/settings">
+        <Link href="/our-product">
           <a
-            href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Settings
+             Coconut Shell
           </a>
         </Link>
-        <Link href="/admin/tables">
+        <Link href="/our-product">
           <a
-            href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Tables
+           
+           Husk Rice Pellet
           </a>
         </Link>
-        <Link href="/admin/maps">
+        <Link href="/our-product">
           <a
-            href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Maps
+            {/* {/* \\\Settings */}
+            Dried Sawdust Block
           </a>
         </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          Auth Layout
+        <Link href="/our-product">
+          <a
+            className={
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            }
+          >
+            Dried Sawdust Block Black
+          </a>
+        </Link>
+        <Link href="/our-product">
+          <a
+            className={
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            }
+          >
+            Binchotan Charcoal & Powder
+          </a>
+        </Link>
+        <div className="h-0 mx-4 my-2" />
+          <span
+            className={
+              "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+            }
+          >
         </span>
-        <Link href="/auth/login">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Login
-          </a>
-        </Link>
-        <Link href="/auth/register">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Register
-          </a>
-        </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          No Layout
-        </span>
-        <Link href="/landing">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Landing
-          </a>
-        </Link>
-        <Link href="/profile">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Profile
-          </a>
-        </Link>
       </div>
     </>
   );

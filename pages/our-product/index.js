@@ -5,15 +5,16 @@ import Link from "next/link";
 
 import Navbar from "components/Navbars/IndexNavbar";
 import Footer from "components/Footers/Footer.js";
+import Tabs from "components/Widgets/ProductTab"; 
 
 export default function Landing() {
   return (
     <>
       <Navbar transparent />
       <main>
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+        <div className="relative pt-16 pb-32 bg-violet flex content-center items-center justify-center min-h-screen-75">
           <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
+            className="absolute top-0 w-full h-full bg-center bg-cover bg-white"
             style={{
               backgroundImage:
                 "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
@@ -29,12 +30,10 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Our Products.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
-                    based on the Tailwind CSS design system.
+                    Sinar Jaya Export
                   </p>
                 </div>
               </div>
@@ -54,14 +53,14 @@ export default function Landing() {
               y="0"
             >
               <polygon
-                className="text-blueGray-200 fill-current"
+                className="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="pb-20 bg-blueGray-200 -mt-24">
+        {/* <section className="pb-20 bg-blueGray-200 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -168,9 +167,13 @@ export default function Landing() {
               </div>
             </div>
           </div>
+        </section> */}
+
+        <section className="p-16">
+          <Tabs></Tabs>
         </section>
 
-        <section className="relative py-20">
+        {/* <section className="relative py-20">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: "translateZ(0)" }}
@@ -259,9 +262,9 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="pt-20 pb-48">
+        {/* <section className="pt-20 pb-48">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -560,7 +563,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </>
