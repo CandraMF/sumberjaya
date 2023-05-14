@@ -80,7 +80,7 @@ export default function Index() {
             y="0"
           >
             <polygon
-              className="text-blueGray-100 fill-current"
+              className="text-black-100 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
