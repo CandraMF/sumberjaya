@@ -127,13 +127,13 @@ export default function Index() {
                         <i className="fas fa-sitemap"></i>
                       </div> */}
                       <h3 className="text-3xl font-bold text-black">
-                        Great for your awesome project
+                        Sumberjaya Ekspor Impor
                       </h3>
                       <p className="mt-4 text-lg text-black-700">
-                          Putting together a page has never been easier than matching
-                        together pre-made components. From landing pages
-                        presentation to login areas, you can easily customise and
-                        built your pages.
+                      Sumberjaya Company was established in 2015 and is engaged in import export of ingredients such as 
+                      charcoal, coconut, coco peat, and cocoa. 
+                      This company has experience and expertise in cooperating with various related parties at home and 
+                      abroad, so as to provide quality products at competitive prices. 
                       </p>
                     </div>
                   </div>
@@ -436,10 +436,8 @@ export default function Index() {
                   About Us
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-black-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                We are a company engaged in the export and import of ingredients such as charcoal, coconut, coco peat, and cocoa. 
+                We have many years of experience in the industry and understand the needs and quality standards required in the global market.
                 </p>
                 <Link
                   href="profile">
@@ -514,9 +512,8 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-bold text-4xl text-black">Biography</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-black-500">
-              Notus NextJS is a completly new product built using our past
-              experience in web templates. Take the examples we made for you and
-              start playing with them.
+            In running its business, Sumberjaya Company is always committed to maintaining the quality of products and services provided to customers. 
+            They are also constantly innovating and adapting to global market changes to ensure the sustainability of their business.
             </p>
           </div>
         </div>
@@ -528,9 +525,9 @@ export default function Index() {
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
+                  {/* <h5 className="text-xl font-semibold pb-4 text-center">
                     Login Page
-                  </h5>
+                  </h5> */}
                   <Link href="/auth/login">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -543,9 +540,9 @@ export default function Index() {
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
+                  {/* <h5 className="text-xl font-semibold pb-4 text-center">
                     Profile Page
-                  </h5>
+                  </h5> */}
                   <Link href="/profile">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -558,9 +555,9 @@ export default function Index() {
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
+                  {/* <h5 className="text-xl font-semibold pb-4 text-center">
                     Landing Page
-                  </h5>
+                  </h5> */}
                   <Link href="/landing">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -577,14 +574,14 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="py-20 overflow-hidden">   
+      {/* <section className="py-20 overflow-hidden">   
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
               {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-code-branch text-xl"></i>
               </div> */}
-              <h3 className="text-3xl mb-2 font-bold leading-normal text-black">
+              {/* <h3 className="text-3xl mb-2 font-bold leading-normal text-black">
                 Open Source
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black-400">
@@ -604,7 +601,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section>  */}
 
       <section className="pb-16 bg-blueGray-200 relative pt-32">
         {/* <div
