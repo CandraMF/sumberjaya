@@ -85,14 +85,15 @@ export default function Index() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+            <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                  src="/img/AssetSumber/alexander-cifuentes-mwlgCABPa_Y-unsplash.jpg"
                   className="w-full align-middle rounded-t-lg"
                 />
-                <blockquote className="relative p-8 mb-4">
+                
+                {/* <blockquote className="relative p-8 mb-4">
                   <svg
                     preserveAspectRatio="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -113,30 +114,32 @@ export default function Index() {
                     presentation to login areas, you can easily customise and
                     built your pages.
                   </p>
-                </blockquote>
+                </blockquote> */}
               </div>
             </div>
 
             <div className="w-full md:w-6/12 px-4">
               <div className="flex flex-wrap">
-                <div className="w-full md:w-6/12 px-4">
+                <div className="w-full md:w-12/12 px-4">
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-sitemap"></i>
-                      </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
-                      </h6>
-                      <p className="mb-4 text-blueGray-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
+                      </div> */}
+                      <h3 className="text-3xl font-bold text-black">
+                        Great for your awesome project
+                      </h3>
+                      <p className="mt-4 text-lg text-black-700">
+                          Putting together a page has never been easier than matching
+                        together pre-made components. From landing pages
+                        presentation to login areas, you can easily customise and
+                        built your pages.
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
@@ -145,26 +148,26 @@ export default function Index() {
                       <p className="mb-4 text-blueGray-500">
                         We also feature many dynamic components for React,
                         NextJS, Vue and Angular.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Pages</h6>
                       <p className="mb-4 text-blueGray-500">
                         This extension also comes with 3 sample pages. They are
                         fully coded so you can start working instantly.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
@@ -173,7 +176,7 @@ export default function Index() {
                       <p className="mb-4 text-blueGray-500">
                         Built by developers for developers. You will love how
                         easy is to to work with Notus NextJS.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -182,7 +185,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="container mx-auto overflow-hidden pb-20">
+        {/* <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
@@ -420,25 +423,33 @@ export default function Index() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="container mx-auto px-4 pb-32 pt-48">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-file-alt text-xl"></i>
-                </div>
-                <h3 className="text-3xl font-semibold">
-                  Complex Documentation
+                </div> */}
+                <h3 className="text-3xl font-bold text-black">
+                  About Us
                 </h3>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                <p className="mt-4 text-lg leading-relaxed text-black-500">
                   This extension comes a lot of fully coded examples that help
                   you get started faster. You can adjust the colors and also the
                   programming language. You can change the text and images and
                   you're good to go.
                 </p>
-                <ul className="list-none mt-6">
+                <Link
+                  href="profile">
+                  <a
+                  className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-orange-500 uppercase text-sm shadow hover:shadow-lg"
+                  >
+                    More Detail
+                  </a>
+                </Link>
+                {/* <ul className="list-none mt-6">
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
@@ -481,7 +492,7 @@ export default function Index() {
                       </div>
                     </div>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
 
@@ -493,7 +504,7 @@ export default function Index() {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src="/img/documentation.png"
+                src="/img/AssetSumber/rene-porter-IJyQ1us6MVM-unsplash.jpg"
               />
             </div>
           </div>
@@ -501,8 +512,8 @@ export default function Index() {
 
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
-            <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
+            <h2 className="font-bold text-4xl text-black">Biography</h2>
+            <p className="text-lg leading-relaxed mt-4 mb-4 text-black-500">
               Notus NextJS is a completly new product built using our past
               experience in web templates. Take the examples we made for you and
               start playing with them.
@@ -566,57 +577,43 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="py-20 bg-orange-500 overflow-hidden">
+      <section className="py-20 overflow-hidden">   
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              {/* <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-code-branch text-xl"></i>
-              </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
+              </div> */}
+              <h3 className="text-3xl mb-2 font-bold leading-normal text-black">
                 Open Source
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Since{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creative"
-                  className="text-blueGray-300"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>{" "}
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black-400">
+                Since
                 is an open source project we wanted to continue this movement
                 too. You can give this version a try to feel the design and also
                 test the quality of the code!
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
+              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-black-400">
                 Get it free on Github and please help us spread the news with a
                 Star!
               </p>
-              <a
-                href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                target="_blank"
-                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-orange-500 uppercase text-sm shadow hover:shadow-lg"
-              >
-                Github Star
-              </a>
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-              <i className="fab fa-github text-blueGray-700 absolute text-55 -top-150-px -right-100 left-auto opacity-80"></i>
+              <img src="img/AssetSumber/alin-luna-lGl3spVIU0g-unsplash.jpg"></img>
             </div>
           </div>
         </div>
       </section>
 
       <section className="pb-16 bg-blueGray-200 relative pt-32">
-        <div
+        {/* <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
         >
           <svg
             className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="/img/AssetSumber/alin-luna-lGl3spVIU0g-unsplash.jpg"
             preserveAspectRatio="none"
             version="1.1"
             viewBox="0 0 2560 100"
@@ -624,13 +621,13 @@ export default function Index() {
             y="0"
           >
             <polygon
-              className="text-blueGray-200 fill-current"
+              className="text-black-200 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
-        </div>
+        </div> */}
 
-        <div className="container mx-auto">
+        {/* <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center">
@@ -666,7 +663,7 @@ export default function Index() {
               <div className="text-center mt-16"></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <Footer />
     </>
