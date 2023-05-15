@@ -47,7 +47,7 @@ export default function OurProduct() {
                     Our Products.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    Sumber Jaya Export
+                    Sumber Jaya Ekspor
                   </p>
                 </div>
               </div>

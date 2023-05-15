@@ -34,7 +34,7 @@ export default function HeaderStats() {
                   statPercentColor="text-red-500"
                   statDescripiron="Since last week"
                   statIconName="fas fa-chart-pie"
-                  statIconColor="bg-orange-500"
+                  statIconColor="bg-purple-500"
                 />
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">

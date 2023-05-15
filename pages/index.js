@@ -32,14 +32,14 @@ export default function Index() {
             hasAutoplayControls: true
           }}
         >
-          <SplideSlide className="w-full ">
-            <img src={images[0]} alt="Image 1" className="w-full object-cover" />
+          <SplideSlide className="w-full relative">
+            <img src={images[0]} alt="Image 1" className="md:w-full md:h-auto h-full w-auto object-cover" />
           </SplideSlide>
-          <SplideSlide className="w-full">
-            <img src={images[1]} alt="Image 2" className="w-full object-cover" />
+          <SplideSlide className="w-full relative">
+            <img src={images[1]} alt="Image 2" className="md:w-full md:h-auto h-full w-auto object-cover" />
           </SplideSlide>
-          <SplideSlide className="w-full">
-            <img src={images[2]} alt="Image 2" className="w-full object-cover" />
+          <SplideSlide className="w-full relative">
+            <img src={images[2]} alt="Image 2" className="md:w-full md:h-auto h-full w-auto object-cover" />
           </SplideSlide>
         </Splide>
       </section>
@@ -76,7 +76,7 @@ export default function Index() {
                       <Link
                         href="profile">
                         <a
-                          className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-orange-500 uppercase text-sm shadow hover:shadow-lg"
+                          className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-purple-500 uppercase text-sm shadow hover:shadow-lg"
                         >
                           More Detail
                         </a>
@@ -127,7 +127,7 @@ export default function Index() {
                 <Link
                   href="our-product/1">
                   <a
-                    className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-orange-500 uppercase text-sm shadow hover:shadow-lg"
+                    className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-purple-500 uppercase text-sm shadow hover:shadow-lg"
                   >
                     More Products
                   </a>
@@ -159,7 +159,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="block relative z-1 bg-orange-500">
+      <section className="block relative z-1 bg-purple-900 ">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -214,9 +214,9 @@ export default function Index() {
         </div>
       </section>
 
-      <div className=" bg-orange-500">
+      <div className=" bg-purple-900">
         <div className="container mx-auto pb-64 pt-32 text-center ">
-          <h2 className="font-bold text-4xl text-black ">Find Us</h2>
+          <h2 className="font-bold text-4xl text-white ">Find Us</h2>
           <div className="pt-24">
             <MapExample></MapExample>
           </div>
@@ -244,17 +244,17 @@ export default function Index() {
               <div className="sm:block flex flex-col mt-10">
                 <a
                 
-                  href="mailto: sumberjaya.ekspor@gmail.com"
+                  href="mailto: sumberjaya.ekspor88@gmail.com"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   <i className="far fa-envelope text-lg mr-1"></i>
-                  sumberjaya.ekspor@gmail.com
+                  sumberjaya.ekspor88@gmail.com
                 </a>
                 <a
                   href="https://api.whatsapp.com/send?phone=6281320229969"
                   target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-orange-500 uppercase text-sm shadow hover:shadow-lg"
+                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-purple-500 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i className="fab fa-whatsapp text-lg mr-1"></i>
                   <span>+62 813-2022-9969</span>

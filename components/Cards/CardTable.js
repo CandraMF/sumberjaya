@@ -38,7 +38,7 @@ export default function CardTable({ color }) {
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-orange-500 text-blueGray-200 border-blueGray-500")
+                      : "bg-purple-500 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Project
@@ -48,7 +48,7 @@ export default function CardTable({ color }) {
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-orange-500 text-blueGray-200 border-blueGray-500")
+                      : "bg-purple-500 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Budget
@@ -58,7 +58,7 @@ export default function CardTable({ color }) {
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-orange-500 text-blueGray-200 border-blueGray-500")
+                      : "bg-purple-500 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Status
@@ -68,7 +68,7 @@ export default function CardTable({ color }) {
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-orange-500 text-blueGray-200 border-blueGray-500")
+                      : "bg-purple-500 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Users
@@ -78,7 +78,7 @@ export default function CardTable({ color }) {
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-orange-500 text-blueGray-200 border-blueGray-500")
+                      : "bg-purple-500 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Completion
@@ -88,7 +88,7 @@ export default function CardTable({ color }) {
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-orange-500 text-blueGray-200 border-blueGray-500")
+                      : "bg-purple-500 text-blueGray-200 border-blueGray-500")
                   }
                 ></th>
               </tr>

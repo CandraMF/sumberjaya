@@ -19,7 +19,7 @@ const IndexDropdown = () => {
   return (
     <>
       <a
-        className="cursor-pointer bg-orange-500 text-white active:bg-orange-200 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+        className="cursor-pointer bg-purple-500 text-white active:bg-purple-200 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
         ref={btnDropdownRef}
         onClick={(e) => {
           e.preventDefault();
@@ -45,7 +45,7 @@ const IndexDropdown = () => {
         <Link href="/our-product/1">
           <a
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent bg-orange-500-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent bg-purple-500-700"
             }
           >
             Charcoal Coconut Briquitte
@@ -54,7 +54,7 @@ const IndexDropdown = () => {
         <Link href="/our-product/2">
           <a
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparbg-orange-500Gray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparbg-purple-500Gray-700"
             }
           >
              Coco Peat and Coco Fiber
@@ -63,7 +63,7 @@ const IndexDropdown = () => {
         <Link href="/our-product/3">
           <a
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-tranbg-orange-500blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-tranbg-purple-500blueGray-700"
             }
           >
            Cocoa Powder

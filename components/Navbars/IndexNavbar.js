@@ -18,7 +18,7 @@ export default function Navbar(props) {
               >
                 <span className="flex items-center">
                   <img src="/img/brand/logo.svg" className="h-10"></img>
-                  <span> &nbsp; &nbsp;  Sumber Jaya Export</span>
+                  <span> &nbsp; &nbsp;  Sumber Jaya Ekspor</span>
                 </span>
               </a>
             </Link>

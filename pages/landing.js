@@ -29,7 +29,7 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Sumber Jaya Exprort
+                    Sumber Jaya Ekspor
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200 text-3xl">
                     Busines content
@@ -358,7 +358,7 @@ export default function Landing() {
                     </div>
                     <div className="text-center mt-6">
                       <button
-                        className="bg-blueGray-800 text-white active:bg-orange-500 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="bg-blueGray-800 text-white active:bg-purple-500 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Send Message

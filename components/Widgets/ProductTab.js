@@ -167,7 +167,7 @@ const Tabs = ({ activeTab }) => {
                             className={
                                 "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                 (openTab === 1
-                                    ? "text-white bg-orange-500"
+                                    ? "text-white bg-purple-500"
                                     : "text-blueGray-600 bg-white")
                             }
                             onClick={e => {
@@ -186,7 +186,7 @@ const Tabs = ({ activeTab }) => {
                             className={
                                 "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                 (openTab === 2
-                                    ? "text-white bg-orange-500"
+                                    ? "text-white bg-purple-500"
                                     : "text-blueGray-600 bg-white")
                             }
                             onClick={e => {
@@ -205,7 +205,7 @@ const Tabs = ({ activeTab }) => {
                             className={
                                 "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                                 (openTab === 3
-                                    ? "text-white bg-orange-500"
+                                    ? "text-white bg-purple-500"
                                     : "text-blueGray-600 bg-white")
                             }
                             onClick={e => {
