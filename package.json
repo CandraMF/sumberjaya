@@ -22,9 +22,10 @@
     "tailwindcss": "2.0.4"
   },
   "scripts": {
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "build": "next build",
     "dev": "next dev",
+    "export": "next export",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
     "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css"
   },
@@ -48,6 +49,6 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.5",
-    "postcss": "8.2.8"
+    "postcss": "8.3.10"
   }
 }

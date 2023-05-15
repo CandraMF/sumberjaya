@@ -22,9 +22,16 @@ export default class ProductCard extends Component{
                     <p>
                         {
                             Object.keys(this.props.product.spec).map((item, index) => {
-                                return <>
-                                    <p>{item} : {this.props.product.spec[item]}</p>
-                                </>
+                                if(this.props.product.name == "Charcoal") {
+                                    return <>
+                                        <p>- {this.props.product.spec[item]}</p>
+                                    </>
+                                } else {
+                                    return <>
+                                        <p>{item} : {this.props.product.spec[item]}</p>
+                                    </>
+                                }
+                                
                             })
                         }
                     </p>

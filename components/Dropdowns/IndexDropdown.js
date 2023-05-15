@@ -19,7 +19,7 @@ const IndexDropdown = () => {
   return (
     <>
       <a
-        className="bg-orange-500 text-white active:bg-orange-200 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+        className="cursor-pointer bg-orange-500 text-white active:bg-orange-200 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
         ref={btnDropdownRef}
         onClick={(e) => {
           e.preventDefault();
@@ -42,69 +42,34 @@ const IndexDropdown = () => {
         >
           
         </span>
-        <Link href="/our-product">
+        <Link href="/our-product/1">
           <a
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent bg-orange-500-700"
             }
           >
-            Wood Pellet
+            Charcoal Coconut Briquitte
           </a>
         </Link>
-        <Link href="/our-product">
+        <Link href="/our-product/2">
           <a
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparbg-orange-500Gray-700"
             }
           >
-             Coconut Shell
+             Coco Peat and Coco Fiber
           </a>
         </Link>
-        <Link href="/our-product">
+        <Link href="/our-product/3">
           <a
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-tranbg-orange-500blueGray-700"
             }
           >
-           
-           Husk Rice Pellet
+           Cocoa Powder
           </a>
         </Link>
-        <Link href="/our-product">
-          <a
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            {/* {/* \\\Settings */}
-            Dried Sawdust Block
-          </a>
-        </Link>
-        <Link href="/our-product">
-          <a
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Dried Sawdust Block Black
-          </a>
-        </Link>
-        <Link href="/our-product">
-          <a
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Binchotan Charcoal & Powder
-          </a>
-        </Link>
-        <div className="h-0 mx-4 my-2" />
-          <span
-            className={
-              "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-            }
-          >
-        </span>
+        
       </div>
     </>
   );
